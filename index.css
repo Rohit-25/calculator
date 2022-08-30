@@ -1,0 +1,26 @@
+.calbody{
+    /* height: 400px; */
+   width: 350px;
+    border: 2px solid red;
+    display: inline-block;
+}
+.nos{
+    margin-top: 5%;
+}
+.nos > button{
+    width:60px;
+    margin:2%;
+    border-radius: 20px;
+}
+#display{
+    width: 305px;
+    height: 65px;
+    padding: 5%;
+    font-size: 30px;
+}
+.acbtn{
+    width:35px;
+}
+body{
+    background-color: rgb(138, 69, 69);
+}

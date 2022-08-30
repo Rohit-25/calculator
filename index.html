@@ -1,0 +1,59 @@
+<head>
+    <title>Calculator</title>
+    
+    <link rel="icon" href="images/calci-icon.png" type="image/icon type">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+        <div class="container">
+           <div class="  position-absolute top-50 start-50 translate-middle">
+            <div class="card calbody ">
+                <div class="card-header text-center">
+                 <h1> Calculator</h1> 
+                </div>
+                <div class="card-body">
+               
+                    <input   type="text " name="display" id="display" >
+                    <div class="nos">
+                        <button  class="btn  btn-light btn-lg" id="seven" onclick="Userinput('7')" >7</button>
+                        <button type="input" class="btn  btn-light btn-lg" onclick="Userinput('8')" >8</button>
+                        <button type="input" class="btn  btn-light btn-lg" onclick="Userinput('9')" >9</button>
+                        <button type="input" class="btn  btn-light btn-lg"onclick="Userinput('/')" >/</button>
+                        <button type="input" class="btn  btn-light btn-lg" onclick="Userinput('4')" >4</button>
+                        <button type="input" class="btn  btn-light btn-lg"onclick="Userinput('5')" >5</button>
+                        <button type="input" class="btn  btn-light btn-lg" onclick="Userinput('6')" >6</button>
+                        <button type="input" class="btn  btn-light btn-lg" onclick="Userinput('*')" >*</button>
+                        <button type="input" class="btn  btn-light btn-lg" onclick="Userinput('1')" >1</button>
+                        <button type="input" class="btn  btn-light btn-lg" onclick="Userinput('2')" >2</button>
+                        <button type="input" class="btn  btn-light btn-lg" onclick="Userinput('3')" >3</button>
+                        <button type="input" class="btn  btn-light btn-lg" onclick="Userinput('-')" >-</button>
+                        <button type="input" class="btn  btn-light btn-lg" onclick="Userinput('0')" >0</button>
+                        <button type="input" class="btn  btn-light btn-lg"onclick="Userinput('.')" >.</button>
+                        <button type="input" class="btn  btn-light btn-lg"onclick="Calculateval()" >=</button>
+                        <button type="input" class="btn  btn-light btn-lg" onclick="Userinput('+')" >+</button>
+                        <button type="input" class="btn  btn-light acbtn " onclick="ClearAll()" >AC</button>
+                        <button type="input" class="btn  btn-light btn-lg" onclick="Userinput( '(')" >(</button>
+                        <button type="input" class="btn  btn-light btn-lg" onclick="Userinput(')')" >)</button>
+                    </div>
+                    
+                    
+              
+                </div>
+                <div class="card-footer text-muted text-center ">
+                  lostrg
+                </div>
+              </div>
+           </div>
+            
+
+        </div>
+       
+
+        <script src="calculator.js"></script>
+
+</body>
